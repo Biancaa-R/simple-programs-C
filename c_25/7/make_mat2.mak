@@ -6,7 +6,7 @@ OFILE=matrix_mult.o
 PROF_OUTPUT=gmon.out
 #-pg for profiling
 
-all: $(TARGET) run
+all: $(TARGET) run profile
 
 $(TARGET): $(OFILE)
 	$(CC) $(CFLAGS) -o $(TARGET) $(OFILE)
@@ -21,6 +21,7 @@ run: $(TARGET)
 profile:$(PROF_OUTPUT)
 	gprof $(TARGET) $(PROF_OUTPUT) >analyse.txt
 	@echo File created as analyse.txt successfully 
+	@cat analyse.txt
 .PHONY: clean
 
 clean:
