@@ -1,4 +1,4 @@
 ".\Objects\STARTUP.obj",
-".\Objects\led_blink.obj" 
+".\Objects\ext_int1.obj" 
 TO ".\Objects\led_blink" 
 PRINT(".\Listings\led_blink.m51")
