@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <unistd.h>  // For sleep function
 
-// Function prototypes for light states
+
 void redLight();
 void yellowLight();
 void greenLight();
 
 int main() {
     while (1) {
-        redLight();     // Red light for stop
-        yellowLight();  // Yellow light for caution
-        greenLight();   // Green light for go
+        redLight();    
+        yellowLight(); 
+        greenLight();   
     }
     return 0;
 }
@@ -22,7 +22,6 @@ void redLight() {
     printf("RED light OFF\n\n");
 }
 
-// Function to simulate Yellow light
 void yellowLight() {
     printf("YELLOW light ON: GET READY\n");
     sleep(2);  // Yellow light for 2 seconds
