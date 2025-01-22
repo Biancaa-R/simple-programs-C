@@ -1,0 +1,10 @@
+//uhhh
+# stdio .h : standard input output functions:, interacting with the op -->submitting input
+# conio.h : decorate op console, wait for the output console\\
+getch();
+clrscr();
+members of conio.h
+headerfile: group of pre defined functions and statements.
+//headerfile are also called link files
+//definition section
+//global declaration section
