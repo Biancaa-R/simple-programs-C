@@ -4,6 +4,6 @@
 int fun(void) 
 { 
     printf("Its a funny thing to walk around \t");
-	printf("when am dead on the inside"); 
+	printf("Like nothing matters at all"); 
 	return 0; 
 } 

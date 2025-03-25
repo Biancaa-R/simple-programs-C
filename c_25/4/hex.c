@@ -1,4 +1,4 @@
-#include <ctype.h>
+//#include <ctype.h>
 #include<stdio.h>
 
 #define is_digit(c) ((c) >= '0' && (c) <= '9')
@@ -13,10 +13,10 @@ int main() {
     char ch3 = 'g';
     
     // Testing the macros
-    if (is_hex(ch1))
-        printf("%c is a hex digit.\n", ch1);
+    if (is_digit(ch1))
+        printf("%c is a  digit.\n", ch1);
     else
-        printf("%c is not a hex digit.\n", ch1);
+        printf("%c is not a  digit.\n", ch1);
 
     if (is_hex(ch2))
         printf("%c is a hex digit.\n", ch2);
